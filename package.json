@@ -1,0 +1,19 @@
+{
+  "name": "nomadnextlecture",
+  "version": "1.0.0",
+  "description": "nomad coder lecture following for study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitforsteven/nomadnextlecture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitforsteven/nomadnextlecture/issues"
+  },
+  "homepage": "https://github.com/gitforsteven/nomadnextlecture#readme"
+}
