@@ -1,5 +1,11 @@
+import Navigation from "../components/navigation"
+
 export default function mainPage () {
     return (
-        <h1>Hello World!</h1>
+        <div>
+            <Navigation/>
+            <h1>Hello World!</h1>
+        </div>
+        
     );
 }
