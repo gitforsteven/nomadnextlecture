@@ -6,23 +6,18 @@ export default function mainPage () {
         <div>
             <Navigation/>
             <h1>lecture 2.3</h1>
-            <h2>SSR VS CSR</h2>
-            
-            <h3>
-                navigation
-            </h3>
-            <p>컴포넌트에 navigation 만든 후, 해당 컴포넌트를 import 한다</p>
-            <p>아마도 공통적인 사용에 필요한 내용으로 layout 표현하기 위함인듯..</p>
-            <p>client and server component 에서 배운다 함.</p>\
-            
-            <h3>
-                Hook
-            </h3>
-            <p>
-                리액트 훅은 컴포넌트에서 React state와 생명주기 기능(lifecycle features)을 “연동(hook into)“할 수 있게 해주는 함수
-            </p>
-            <p>기존 클래스의 생명주기 메서드를 함수형 방식에서 함수로 사용할 수 있도록 한 것이 훅인 것 같습니다.</p>
-            <p>상태 값을 초기화 하거나, 변경이 발생했을 때 등의 상황에서 리액트의 훅함수가 호출되는 방식인 듯 합니다.</p>
+                <h2>SSR VS CSR</h2>
+                <h3>what is client component - CSR </h3>
+
+                    <p>클라이언트가 랜더링을 함 - 리액트 </p>
+                    <p>단점 : 파일 내용을 다 받아서 랜더해줘야 함 </p>
+                    <p>자바스크립트 비활성화 시 앱을 실행시킬 수 없음</p>
+                    <p>서버가 파일을 받는 데 오래걸림 -- 모두 받아야 하기 때문</p>
+                    <p>검색 엔진에서 잘 나오지 않음 -- 랜더 전에는 HTML 데이터에 볼 수 있는 게 없음</p>
+                        
+                <h3>SSR</h3>
+                    <p>서버가 랜더하기 때문에 HTML을 이미 가지고 있음 </p>
+                    <p>자바스크립트에 의존하지 않음</p>
         </div>
      );
 }OuterLayoutRouter
