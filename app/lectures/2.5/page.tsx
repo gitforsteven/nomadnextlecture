@@ -1,6 +1,3 @@
-import OuterLayoutRouter from "next/dist/client/components/layout-router";
-import Navigation from "../../../components/navigation"
-
 export default function mainPage () {
     return (
         <div>

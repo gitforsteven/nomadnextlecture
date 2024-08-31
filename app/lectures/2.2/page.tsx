@@ -1,10 +1,6 @@
-import OuterLayoutRouter from "next/dist/client/components/layout-router";
-import Navigation from "../../../components/navigation"
-
 export default function mainPage () {
     return (
         <div>
-            <Navigation/>
             <h1>lecture 2.2</h1>
             <h3>not found page</h3>
             <p> not found page : root/not-found.tsx </p>

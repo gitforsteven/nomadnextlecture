@@ -1,11 +1,11 @@
-import OuterLayoutRouter from "next/dist/client/components/layout-router";
-import Navigation from "../../../components/navigation"
+export const metadata = {
+    title : "Layout"
+}
 
 export default function mainPage () {
     return (
         <div>
-            <Navigation/>
-            <h1>lecture 2.7</h1>
+            <h1>lecture 2.7 {metadata.title}</h1>
                 <h2>Layout</h2>
 
                     <p>레이아웃시스템은 반복되는 레이아웃을 먼저 잡아줄 수 있음</p>

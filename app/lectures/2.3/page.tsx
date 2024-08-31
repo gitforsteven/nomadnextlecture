@@ -1,10 +1,6 @@
-import OuterLayoutRouter from "next/dist/client/components/layout-router";
-import Navigation from "../../../components/navigation"
-
 export default function mainPage () {
     return (
         <div>
-            <Navigation/>
             <h1>lecture 2.3</h1>
                 <h2>SSR VS CSR</h2>
                 <h3>what is client component - CSR </h3>
@@ -20,4 +16,4 @@ export default function mainPage () {
                     <p>자바스크립트에 의존하지 않음</p>
         </div>
      );
-}OuterLayoutRouter
+}

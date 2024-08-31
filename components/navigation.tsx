@@ -32,6 +32,25 @@ export default function Navigation () {
                <li>
                   <Link href="/lectures/2.4">2.4</Link> {path === "/lectures/2.4" ? "◀" : ""}
                </li> 
+               <li>
+                  <Link href="/lectures/2.5">2.5</Link> {path === "/lectures/2.5" ? "◀" : ""}
+               </li> 
+               <li>
+                  <Link href="/lectures/2.6">2.6</Link> {path === "/lectures/2.6" ? "◀" : ""}
+               </li> 
+               <li>
+                  <Link href="/lectures/2.7">2.7</Link> {path === "/lectures/2.7" ? "◀" : ""}
+               </li> 
+               <li>
+                  <Link href="/lectures/2.8">2.8</Link> {path === "/lectures/2.8" ? "◀" : ""}
+               </li> 
+               <li>
+                  <Link href="/lectures/2.9">2.9</Link> {path === "/lectures/2.9" ? "◀" : ""}
+               </li> 
+               <li>
+                  <Link href="/lectures/2.10">2.10</Link> {path === "/lectures/2.10" ? "◀" : ""}
+               </li> 
+
             </ul>
             
          </li>

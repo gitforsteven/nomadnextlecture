@@ -1,11 +1,11 @@
 export const metadata = {
-    title : "라우트 그룹, 메타데이터"
+    title : "Conclusion"
 }
 
 export default function mainPage () {
     return (
         <div>
-            <h1>lecture 2.8 {metadata.title}</h1>
+            <h1>lecture 2.10 {metadata.title}</h1>
                 <h2>라우트 그룹과 메타데이터</h2>
 
                 <h3>라우트 그룹이란?</h3>
@@ -26,3 +26,4 @@ export default function mainPage () {
           </div>
      );
 }
+ 
