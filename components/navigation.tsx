@@ -14,17 +14,15 @@ export default function Navigation () {
    console.log(path);
    return (
      <nav>
+       <button onClick={() => setCount(c => c+1)}>{count}</button>
       <ul>
          <li>
-            <Link href="/">Home</Link> {path === "/" ? "◀" : ""}
+            <Link key="refhome" href="/">Home</Link> {path === "/" ? "◀" : ""}
          </li>
 
          <li>
             <h3>Lectures</h3>
             <LectureList/>
-         </li>
-         <li>
-            <button onClick={() => setCount(c => c+1)}>{count}</button>
          </li>
          <li>
             <h3>appendix</h3>
