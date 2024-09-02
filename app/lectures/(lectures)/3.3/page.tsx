@@ -1,4 +1,4 @@
-import { API_URL } from "../../../app/variable"
+import { API_URL } from "../../../variable"
 
 export const metadata = {
     title : "HOME",
